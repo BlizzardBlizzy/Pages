@@ -1,0 +1,45 @@
+body{
+    font-family: 'Neucha';
+    background-image: url(donutt.jpeg);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 70px;
+}
+.container{
+    background:	#C4A484;
+    height: 87vh;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 1px 8px 8px 18px rgba(0,0,0,0.2);
+}
+@media (max-width:700px){
+    .container{
+        height: 103vh;
+    }
+}
+.pronouns{
+    color: black;
+}
+.profile-pic{
+    height: 30vh;
+    width: 30vh;
+    padding-top: 15px;
+    border-radius: 110%;
+}
+.c-white{
+    color: black;
+}
+.social-btn{
+    width: 200px;
+    margin: 0.6em;
+    font-family: 'Neucha';
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background: #C4A484;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
+}
