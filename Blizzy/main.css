@@ -40,6 +40,7 @@ body{
     padding-bottom: 2vh;
     background: #C4A484;
     border: none;
+    color: black;
     border-radius: 6px;
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.2);
 }
